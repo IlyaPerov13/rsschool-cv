@@ -40,13 +40,13 @@ The input string will only consist of lower case letters and/or spaces.
 
 **SOLUTION:**
 
-```java-script
+```javascript
 function getCount(str) {
   var vowelsCount = 0;
-  var vowels = ["a","e","i","o","u"];
-  for(var i = 0;i < str.length;i++){
-    for(var j=0;j<vowels.length;j++){
-      if(str[i] === vowels[j]){
+  var vowels = ['a', 'e', 'i', 'o', 'u'];
+  for (var i = 0; i < str.length; i++) {
+    for (var j = 0; j < vowels.length; j++) {
+      if (str[i] === vowels[j]) {
         vowelsCount++;
       }
     }
@@ -55,3 +55,18 @@ function getCount(str) {
   return vowelsCount;
 }
 ```
+
+---
+
+### Education and courses:
+
+- [Web-developer-2022](https://www.udemy.com/course/webdeveloper/)
+- [Java-script+React](https://www.udemy.com/course/javascript_full/)
+
+---
+
+### English
+
+#### C1: Studing english in University.
+
+---
